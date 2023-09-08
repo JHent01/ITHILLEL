@@ -2,6 +2,7 @@
 
 Console.OutputEncoding = System.Text.Encoding.Unicode;
 //парне непарне
+
     int a_Even;
 
 Console.WriteLine("Введіть число :");
