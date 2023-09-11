@@ -60,13 +60,13 @@ switch (day)
       
 }
 
-if (day > 7) Console.WriteLine("Такого дня тижня не існує");
+if (0 > day & day > 7) Console.WriteLine("Такого дня тижня не існує");
 Console.ReadKey();
 
 //Написати програму, в якій користувач вводить номер місяця. 
 
 int a;
-a = monthNum("Номер місяця: ");
+a = MonthNum("Номер місяця: ");
 
 PrintMonth(a);
 
@@ -90,7 +90,7 @@ PrintMonth(a);
     }
     else { Console.WriteLine("Немає такого місяця на цій планеті"); }
 }
-static int monthNum(string message)
+static int MonthNum(string message)
 {
     Console.Write(message);
     string input = Console.ReadLine();
