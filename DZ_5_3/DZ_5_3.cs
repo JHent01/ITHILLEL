@@ -21,8 +21,8 @@ int gennum = random.Next(2, 1000);
  }
 
 if (CheckNum(2,false)) Console.WriteLine("not simple");
-else Console.WriteLine("simple"); 
+else Console.WriteLine("simple");
 
-
+Console.WriteLine(gennum);
 
 Console.ReadLine();
