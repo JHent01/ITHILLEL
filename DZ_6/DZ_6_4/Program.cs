@@ -1,12 +1,13 @@
-﻿
-Random rand = new Random();
+﻿Random rand = new Random();
 
 int[] randNumbers = new int[20];
 
 for (int i = 0; i < randNumbers.Length; i++)
 {
-    randNumbers[i] = rand.Next(, 100);
+    randNumbers[i] = rand.Next(101);
 }
+
+
 
 
 
@@ -20,13 +21,14 @@ void PrintMass(int[] longArray)
     }
 }
 
+int num = int.Parse(Console.ReadLine());
 
-//Console.ReadKey();
-
-
-//for (int i = 0; i < randNumbers.Length; i++)
-//{
-//    randNumbers[int.Purse(ReadLine())] = 00    
-//}
+    randNumbers[num-1] = 000;
 
 
+Console.WriteLine($"You delete num {num}");
+
+PrintMass(randNumbers);
+
+
+Console.ReadKey();
