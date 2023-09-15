@@ -1,6 +1,7 @@
 ﻿
 
 
+
 Random rand = new Random();
 
 int[] randNumbers = new int[20];
